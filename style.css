@@ -64,17 +64,19 @@ li.importance {
     list-style-type: disc;
 }
 
-
+footer{
+    padding: 10px 40px;
+    backdrop-filter: blur(10px);
+}
 footer ul{
-    display: flex;
-    margin-top: 80px;
+    display: flex; 
     justify-content: space-evenly;
     align-items: end;
     list-style-type: none;
 }
 
 footer ul li a{
-    font-weight: 100;
+    font-weight: lighter;
 }
 
 button.tools{
@@ -98,10 +100,24 @@ nav ul li:hover{
 }
 
 a.links{
-    color: #ffc2c2;
+    color: #c00d0d;
 }
 
 main.other{
     padding-left: 50px;
     padding-right: 40%;
+    padding-bottom: 80px;
+}
+
+.headings{
+    font-weight: bold;
+    font-size: 1.6em;
+       
+}
+
+h4{
+    color: slategray;
+}
+p{
+    color: slategray;   
 }
